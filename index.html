@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="score--group">
+                <h3 class="team">HOME</h3>
+                <div class="score--box">
+                    <h1 id="home-el" class="score">0</h1>
+                </div>
+                <div class="shot--group">
+                    <div class="points" onclick="addPoints('home', 1)">
+                        <p class="points--num">+1</p></div>
+                    <div class="points" onclick="addPoints('home', 2)">
+                        <p class="points--num">+2</p></div>
+                    <div class="points" onclick="addPoints('home', 3)">
+                        <p class="points--num">+3</p></div>
+                </div>
+            </div>
+            <div class="score--group">
+                <h3 class="team">GUEST</h3>
+                <div class="score--box">
+                    <h1 id="guest-el" class="score">0</h1>
+                </div>
+                <div class="shot--group">
+                    <div class="points" onclick="addPoints('guest', 1)">
+                        <p class="points--num">+1</p></div>
+                    <div class="points" onclick="addPoints('guest', 2)">
+                        <p class="points--num">+2</p></div>
+                    <div class="points" onclick="addPoints('guest', 3)">
+                        <p class="points--num">+3</p></div>
+                </div>
+            </div>
+        </div>
+        
+            <button class="newgame" onclick="newGame()">NEW GAME</button>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

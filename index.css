@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Cursed Timer ULiL";
+  src: url("CURSEDTIMERULIL-AZNM.TTF");
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    min-width: 400px;
+    margin: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team {
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.2em;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.score--group {
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    margin-top: 16px;
+    margin-left: 16px;
+    
+}
+.score--box {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+.shot--group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 155px;
+    margin-top: 25px;
+}
+.points {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.points--num {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #9AABD8;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.newgame {
+    display: block;
+    margin: 40px auto;
+    width: 150px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #080001;
+    background-color: #F94F6D;
+    cursor: pointer;
+    
+    
+}
